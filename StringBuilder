@@ -1,1 +1,39 @@
 
+package StringAndStringBuilder;
+
+public class StringBuilderEx {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Tony");
+
+        System.out.println(sb);
+
+        // char at index 0
+        System.out.println(sb.charAt(0));
+
+        // set char at index 0
+        sb.setCharAt(0, 'P');
+        System.out.println(sb);
+
+        // insertion in string
+        sb.insert(0, 'S');
+        System.out.println(sb);
+
+        // insertion in index of string
+        sb.insert(3, 'n');
+        System.out.println(sb);
+
+        //delete the extra 'n'
+        sb.delete(2,4);
+        System.out.println(sb);
+
+        StringBuilder str = new StringBuilder('h');
+        str.append('e');
+        str.append('l');
+        str.append('l');
+        str.append('o');
+
+        System.out.println(str.length());
+
+
+    }
+}
