@@ -2,7 +2,7 @@ package Access_Elements_LinkedList;
 
 import java.util.LinkedList;
 
-public class AccessElementsLinkedList {
+public class AccessElementsLinkedList  {
     public static void main(String[] args) {
         LinkedList<String> lang = new LinkedList<>();
 
